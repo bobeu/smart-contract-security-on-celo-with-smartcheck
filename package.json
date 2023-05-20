@@ -1,7 +1,5 @@
 {
-  "bin": {
-    "smartcheck": "jdeploy-bundle/jdeploy.js"
-  },
+  "bin": "jdeploy-bundle/jdeploy.js",
   "author": "SmartDec <info@smartdec.net> (https://smartdec.net/)",
   "description": "SmartCheck is an extensible static analysis tool for discovering vulnerabilities and other code issues in Ethereum smart contracts written in the Solidity and Vyper programming languages.",
   "homepage": "https://tool.smartdec.net/",
@@ -29,8 +27,5 @@
     "sast",
     "security",
     "linter"
-  ],
-  "devDependencies": {
-    "@smartdec/smartcheck": "^2.0.1"
-  }
+  ]
 }

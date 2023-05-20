@@ -40,7 +40,7 @@ $ mvn clean package
 ### Start the analysis
 
 ```bash
-$ java -jar target/smartcheck-2.1-SNAPSHOT-jar-with-dependencies.jar -p <path to directory or file>
+$ java -jar target/smartcheck-2.0-SNAPSHOT-jar-with-dependencies.jar -p <path to directory or file>
 ```
 
 Optional argument: `-r <path to .xml-file with rules>`; by default it uses the built-in rules files.
